@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<link rel="stylesheet" href="css/exer2.css"/>
+	<link type="text/css" href="css/exer2.css"/>
 	<meta charset="utf-8"/>
 	<meta name="author" content="Matheus Fagundes"/>
 	<meta name="keywords" content="PALAVRA_CHAVE1,PALAVRA_CHAVE2"/>

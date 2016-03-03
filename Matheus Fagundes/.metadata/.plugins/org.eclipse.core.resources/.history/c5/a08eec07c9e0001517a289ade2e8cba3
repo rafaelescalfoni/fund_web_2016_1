@@ -1,0 +1,13 @@
+body{
+	background-color: red;
+}
+
+hr{
+	color:red;
+	width: 50%;
+}
+
+p{
+	color:red;
+	font-size: 100px;
+}

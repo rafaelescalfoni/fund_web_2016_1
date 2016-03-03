@@ -1,0 +1,5 @@
+hr{
+	border: solid 2px blue;
+	color: blue;
+	width: 50%;
+}
