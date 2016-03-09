@@ -11,9 +11,19 @@ body{
 .item-selecionado{
 	background-color:rgb(15, 87, 119);
 }
-.texto_rodape{
+.texto-rodape{
 	color:rgb(33, 110, 146);
 }
 footer{
 	background-color:rgb(204, 236, 255);
+}
+.destaque-titulo{
+	color: rgb(0, 152, 228);
+}
+
+.item-md{
+	width:80px;
+}
+.container{
+	display:table;
 }
