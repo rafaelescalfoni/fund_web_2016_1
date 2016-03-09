@@ -11,3 +11,9 @@ body{
 .item-selecionado{
 	background-color:rgb(15, 87, 119);
 }
+.texto_rodape{
+	color:rgb(33, 110, 146);
+}
+footer{
+	background-color:rgb(204, 236, 255);
+}
