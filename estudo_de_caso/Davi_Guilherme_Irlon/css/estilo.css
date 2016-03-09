@@ -1,0 +1,13 @@
+body{
+	background-color: rgb(0, 27, 39);
+}
+
+.item-azul{
+	background-color:rgb(0, 98, 153);
+}
+.cor-botao{
+	background-color:rgb(0, 172, 234);
+}
+.item-selecionado{
+	background-color:rgb(15, 87, 119);
+}
