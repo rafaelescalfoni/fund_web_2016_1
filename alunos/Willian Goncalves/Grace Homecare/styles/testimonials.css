@@ -1,0 +1,25 @@
+#testimonials h2{
+    font-weight: normal;
+}
+
+.citacao{
+    padding: 30px 0;
+}
+
+#first-column, #second-column{
+    display: inline-block;
+    width: 40%;
+}
+
+#second-column{
+    float: right;
+}
+
+.citacao blockquote{
+    font-style: italic;
+    margin: 16px auto;
+}
+
+.citacao span{
+    float: right;
+}
