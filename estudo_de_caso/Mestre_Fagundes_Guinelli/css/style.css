@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+header{
+	background-color: #F0F0F0;
+}
+
+nav{
+	background-color: #152635;
+	color: white;
+}
+
+nav ul{
+	list-style: none;
+}
+
+footer{
+	background-color: #152635;
+	color: white;
+	display: table;
+	width: 100%;
+}
+
+.footer_div {
+	box-sizing: border-box;
+	float: left;
+	width: 50%;
+	padding-right: 50px
+}
+
+.footer_div + .footer_div {
+	border-left: 2px solid #06141F;
+	padding-right: 0;
+	padding-left: 50px;
+}
+
+.container{
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.clearfix {
+	clear: both;
+}
