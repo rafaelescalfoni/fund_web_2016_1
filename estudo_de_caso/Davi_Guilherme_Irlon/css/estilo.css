@@ -1,5 +1,19 @@
 body{
 	background-color: rgb(0, 27, 39);
+	font-family:sans-serif;
+	color: rgb(255, 255, 255);
+}
+div{	
+	display:table;
+}
+.linha-item-1{
+	float:left;
+}
+.item-md{
+	width:225px;
+	padding:10px;
+	font-size:10px;	
+	margin:10px;
 }
 
 .item-azul{
@@ -7,10 +21,13 @@ body{
 }
 .cor-botao{
 	background-color:rgb(0, 172, 234);
+	border:0px;
+	border-radius:3px;
+	padding:10 5 10 5px;
+	color:rgb(255, 255, 255);
 }
-.item-selecionado{
-	background-color:rgb(15, 87, 119);
-}
+
+
 .texto-rodape{
 	color:rgb(33, 110, 146);
 }
@@ -20,10 +37,83 @@ footer{
 .destaque-titulo{
 	color: rgb(0, 152, 228);
 }
-
-.item-md{
-	width:80px;
+.itens{
+	display:table;
+	margin:10px;
+	height: 350px;
 }
 .container{
 	display:table;
+	background-color: white;
+	width:100%;
+	margin:auto;
+	padding:10px;
+}
+
+.wrapper{
+	width:50%;
+	margin:auto;
+	margin-top:30px;
+}
+
+.banner{
+	width:800px;
+	height: 350px;
+	margin:10px;
+	margin-top: 20px;
+}
+
+.banner img{
+	width: inherit;
+	height: inherit;
+	margin: auto;
+}
+
+
+.item-selecionado{
+	color:rgb(15, 87, 119);
+}
+
+nav{
+	display:table;
+	margin-left:10px;
+}
+nav a{
+	color:rgb(255, 255, 255);
+	text-decoration:none;
+	margin:10px;
+	font-size: 13px;
+	font-family: 'Arial', sans-serif;
+	font-weight:bold;
+	float:left;
+}
+header h2{
+	float:left;
+	margin-top:0;
+}
+.row{
+	margin:auto;
+	width:800px;
+}
+
+.bannerText{
+	color: white;
+	position: absolute;
+	margin-top: -300px; 
+	margin-left: 20px;
+	font-size: 40px;
+}
+
+.esquerda{
+	margin-left:0px;
+}
+
+.direita{
+	margin-right:0px;
+	float:right;
+}
+
+.centro{
+	
+	margin-left:23px;
 }
