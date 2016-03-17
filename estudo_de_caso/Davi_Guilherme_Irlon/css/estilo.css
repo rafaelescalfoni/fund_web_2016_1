@@ -94,3 +94,11 @@ header h2{
 	margin:auto;
 	width:800px;
 }
+
+.bannerText{
+	color: white;
+	position: absolute;
+	margin-top: -300px; 
+	margin-left: 20px;
+	font-size: 40px;
+}
