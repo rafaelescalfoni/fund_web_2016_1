@@ -10,21 +10,23 @@ div{
 	float:left;
 }
 .item-md{
-	width:200px;
+	width:225px;
 	padding:10px;
 	font-size:10px;	
 	margin:10px;
 }
+
 .item-azul{
 	background-color:rgb(0, 98, 153);
 }
 .cor-botao{
 	background-color:rgb(0, 172, 234);
 	border:0px;
-	border-radius:2px;
+	border-radius:3px;
 	padding:10 5 10 5px;
 	color:rgb(255, 255, 255);
 }
+
 
 .texto-rodape{
 	color:rgb(33, 110, 146);
@@ -37,12 +39,14 @@ footer{
 }
 .itens{
 	display:table;
+	margin:10px;
 }
 .container{
 	display:table;
 	background-color: white;
 	width:100%;
 	margin:auto;
+	padding:10px;
 }
 
 .wrapper{
@@ -85,4 +89,8 @@ nav a{
 header h2{
 	float:left;
 	margin-top:0;
+}
+.row{
+	margin:auto;
+	width:800px;
 }
