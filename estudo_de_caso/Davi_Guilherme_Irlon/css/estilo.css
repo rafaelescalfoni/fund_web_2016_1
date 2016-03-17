@@ -40,6 +40,7 @@ footer{
 .itens{
 	display:table;
 	margin:10px;
+	height: 350px;
 }
 .container{
 	display:table;
@@ -58,7 +59,7 @@ footer{
 .banner{
 	width:800px;
 	height: 350px;
-	margin:auto;
+	margin:10px;
 	margin-top: 20px;
 }
 
@@ -101,4 +102,18 @@ header h2{
 	margin-top: -300px; 
 	margin-left: 20px;
 	font-size: 40px;
+}
+
+.esquerda{
+	margin-left:0px;
+}
+
+.direita{
+	margin-right:0px;
+	float:right;
+}
+
+.centro{
+	
+	margin-left:20px;
 }
