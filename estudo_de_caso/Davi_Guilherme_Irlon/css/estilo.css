@@ -86,3 +86,11 @@ header h2{
 	float:left;
 	margin-top:0;
 }
+
+.bannerText{
+	color: white;
+	position: absolute;
+	margin-top: -300px; 
+	margin-left: 20px;
+	font-size: 40px;
+}
