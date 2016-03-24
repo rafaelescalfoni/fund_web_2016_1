@@ -1,0 +1,12 @@
+footer{
+    background-image: url("../img/fundo-rodape.png");
+}
+
+footer img{
+    margin: 25px 10px;
+}
+
+footer div{
+    width: 60%;
+    margin: 10px auto;
+}
