@@ -1,14 +1,64 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="ISO-8859-1">
+		<meta charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="css/estilo.css" />
 		<title>Insert title here</title>
 	</head>
 	<body>
 	<main>
+
 		<header>
-		
+			<img alt="logo" src="img/logo.png"/>
+			<div class="direita_linha sacola" id="div-carrinho">
+				<p class="bloco_em_linha desc_sacola">
+					Nenhum Item na Sacola de Compras
+				</p>
+				<img alt="sacola" src="img/sacola.png"/>
+			</div>
+			<nav class="nav_sup">
+				<ul class="lista_em_linha">
+					<li><a href="#">Sua Conta</a></li>
+					<li><a href="#">Lista de Desejos</a></li>
+					<li><a href="#">Cartão Fidelidade</a></li>
+					<li><a href="#">Sobre</a></li>
+					<li><a href="#">Ajuda</a></li>
+				</ul>
+			</nav>
 		</header>
+		
+		<div id="div-busca-menu" class="menu_lateral">
+			<div id="div-busca" class="fundo_cinza">
+			<p>BUSCA</p>
+			<form>
+				<input class="borda_radiana" type="text" name="busca"/>
+				<button class="borda_radiana" name="buscar"><img alt="buscar" src="img/busca.png"/></button>
+			</form>
+			</div>
+			<nav class="fundo_cinza">
+				<p>DEPARTAMENTOS</p>
+				<ul class="lista_colunar fundo_branco">
+					<li><a href="#">BLUSAS E CAMISAS</a></li>
+					<li><a href="#">CALÇAS</a></li>
+					<li><a href="#">SAIAS</a></li>
+					<li><a href="#">VESTIDOS</a></li>
+					<li><a href="#">SAPATOS</a></li>
+					<li><a href="#">BOLSAS E CARTEIRAS</a></li>
+					<li><a href="#">ACESSÓRIOS</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		<figure>
+			<img class="img_principal" alt="Destaque" src="img/destaque-home.png"/>
+		</figure>
+		<div id="div-novidades">
+		</div>
+		
+		<div id="div-mais_vendidos">
+		</div>
+		<footer>
+		</footer>
 	</main>
 	</body>
 </html>
