@@ -1,0 +1,30 @@
+#novidades, #mais-vendidos{
+    width: 48%;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#novidades{
+    background-color: #f5dcdc;
+}
+
+#mais-vendidos{
+    background-color: #dcdcf5;
+    float: right;
+}
+
+.produto{
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.produto img{
+    width: 130px;
+    height: 150px;
+}
+
+.produto p{
+    max-width: 130px;
+    font-size: 0.8em;
+}
