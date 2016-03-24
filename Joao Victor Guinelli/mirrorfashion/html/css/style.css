@@ -1,1 +1,83 @@
 @CHARSET "utf-8";
+
+
+body{
+	/*background-image: url("../img/body-background.png");*/
+}
+
+main{
+	margin: 0 auto;
+	max-width: 935px;
+	border: 1px solid black;
+}
+
+header {
+	border: 1px solid black;	
+}
+
+.sacola{
+	float: right;
+}
+
+.sacola p{
+	text-align: right;
+	font-family: sans-serif;
+	font-size: 1em;
+	display: inline-block;
+	width: 150px;
+}
+
+.sacola img{
+	display: inline-block;
+}
+
+.nav_topo{
+	float: right;
+	clear: right;
+}
+
+.menu_vertical{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu_vertical li{
+	display: inline;
+	margin-left: 20px;
+}
+
+aside {
+	max-width: 225px;
+	float: left;
+}
+
+.busca{
+	background-color: rgb(220,220,220);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+.busca strong{
+	font-weight: bolder;
+	
+}
+
+.busca input {
+	border-radius: 10px;
+	width: 75%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: 1px solid;
+}
+
+.img_principal {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+
