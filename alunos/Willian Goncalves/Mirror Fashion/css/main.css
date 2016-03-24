@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+section{
+    width: 60%;
+    margin: 15px auto;
+    display: table;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.main-image{
+    width: 700px;
+    height: 480px;
+    float: right;
+}
+
+a, a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: #000000;
+}
