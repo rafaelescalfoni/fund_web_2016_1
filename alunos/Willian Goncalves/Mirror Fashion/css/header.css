@@ -1,0 +1,23 @@
+header{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.header-content{
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+
+.header-content p{
+    width: 155px;
+    margin: 0 10px;
+}
+
+.header-content nav a{
+    margin-left: 20px;
+}
