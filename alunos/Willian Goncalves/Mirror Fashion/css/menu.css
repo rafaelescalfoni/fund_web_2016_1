@@ -1,0 +1,27 @@
+.form-busca{
+    background-color: #dcdcdc;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+}
+
+.form-busca p{
+    margin: 0;
+}
+
+.menu{
+    margin-top: 10px;
+    background-color: #dcdcdc;
+    padding: 5px 0;
+}
+
+.menu p{
+    margin: 10px 5px;
+}
+
+.menu li{
+    background-color: #ffffff;
+    list-style: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 5px;
+}

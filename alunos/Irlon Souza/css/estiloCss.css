@@ -1,0 +1,132 @@
+body{
+	background-image: url("../img/body-background.png") ;
+	
+}
+div{
+	display:table;
+}
+
+main{
+	margin:5%;
+	display:table;
+}
+
+header{
+	height:85px;
+	width:1000px;
+	background-color:white;
+}
+
+.logo{
+	float:left;
+	
+	width:225px;
+	height:85px;
+}
+
+.itemNaSacola{
+	float:right;
+	
+	width:225px;
+	height:30px;
+}
+.imgSacola{
+	float:right;
+
+}
+
+.textoSacola{
+	float:right;
+	width: 138px;
+	height:30px;
+	margin-top:0px;
+	margin-right:7px;
+	text-align:right;
+}
+.listaMenuDiv{
+	float:bottom;
+	height:30px;
+	width:500px;
+	margin-left:50%;
+
+}
+.listaMenuDiv ul{
+	float:right;
+	display:inline;
+	height:20px;
+
+	list-style:none;
+	
+}
+.listaMenuDiv li{
+	display:inline;
+}
+
+.menuLateral{
+	width:225px;
+	height:50%;
+	float:left;
+	display:table;
+}
+
+.menuLateral div{
+	background-color:rgb(200,200,200)  ;
+	width:225px;
+	margin-top:10px;
+	
+	
+
+}
+
+.menuLateralAli{
+	margin-top: 10px;
+	margin-left:10px;
+	
+
+
+}
+
+.menuLateral ul{
+	margin-top:0px;
+}
+
+.menuLateral li{
+	margin-top:5px;
+	padding-left:10px;
+	width:215px;
+}
+
+
+.menuLateral ul{
+	float:left;
+	padding-left:0px;
+
+}
+
+.menuLateral li{
+	background-color:white;
+	
+	list-style:none;
+	
+}
+
+
+
+.menuLateralBuscarImg{
+	margin-right: 20px;
+	margin-top:11px;
+	float:right;
+}
+
+.caixaDeBusca{
+	border-radius:10px;
+}
+
+.destaqueHome{
+	float:left;
+	margin-top:-10px;
+
+	width: 700px;
+	height:480px;
+}
+
