@@ -181,3 +181,83 @@ header h1{
 	border: 1px solid #fff;
 	background-color: #fff;
 }
+
+.trending {
+	width: 100%;
+	position: relative;
+}
+
+.trending-container {
+	box-sizing: border-box;
+	float: left;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.col-1of4 {
+	box-sizing: border-box;
+	float: left;
+	padding: 0 10px;
+	width: 25%;
+}
+
+.thumbnail-2 {
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+}
+
+.thumbnail-price {
+	right: -5px;
+	padding: 5px 10px;
+	position: absolute;
+	top: 0;
+}
+
+.thumbnail-2 img {
+	max-width: 100%;
+}
+
+.arrow {
+	background: transparent;
+	border: none;
+	box-sizing: border-box;
+	bottom: 0;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	position: absolute;
+	width: 10%;
+	top: 0;
+}
+
+.arrow-left {
+	left: 0;
+}
+
+.arrow-right {
+	right: 0;
+}
+
+.arrow span {
+	color: #666;
+	font-size: 30px;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.arrow:hover {
+	background-color: #eee;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.clearfix {
+	clear: both;
+}
