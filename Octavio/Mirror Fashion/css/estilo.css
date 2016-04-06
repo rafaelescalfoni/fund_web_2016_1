@@ -1,0 +1,84 @@
+@CHARSET "utf-8";
+
+main
+{
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+.direita_linha
+{
+	float: right;
+	display: inline;
+}
+
+.bloco_em_linha
+{
+	display: inline-block;
+}
+
+.desc_sacola
+{
+	width: 150px;
+	margin: 0px;
+	margin-right: 5px;
+	text-align: right;
+}
+
+.em_linha
+{
+	display: inline;
+}
+
+.lista_em_linha
+{
+	list-style-type: none;
+}
+
+.lista_em_linha li
+{
+	display: inline;
+	margin-left: 5px;
+}
+
+.lista_colunar
+{
+	list-style-type: none;
+	padding: 0;
+}
+
+.menu_lateral
+{
+	width: 225px;
+	float: left;
+}
+
+.fundo_cinza
+{
+	background-color: rgb(220,220,220);
+	padding-bottom: 10px;
+}
+
+.fundo_branco
+{
+	background-color: #fff;
+}
+
+.borda_radiana
+{
+	border-radius: 5px;
+}
+
+.img_principal
+{
+	width: 630px;
+	float: left;
+	display: inline;
+}
+
+.nav_sup
+{
+	clear: right;
+	display: block;
+	float: right;
+}

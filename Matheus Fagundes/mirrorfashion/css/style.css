@@ -1,0 +1,93 @@
+main{
+	width: 935px;
+	padding: 0;
+}
+
+header{
+	vertical-align: middle;
+}
+
+.float-right{
+	float: right;
+	display: inline;
+}
+
+.itens_carrinho{
+	width: 150px;
+	display: inline-block;
+}
+
+.opcoes{
+	display: block;
+	clear: right;
+}
+
+.opcoes ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.opcoes li{
+	display: inline;
+	margin: 10px;
+}
+
+.fundo_cinza{
+	background-color: rgb(220,220,220);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 3px;
+	margin-bottom: 5px;
+}
+
+.aside{
+	width: 225px;
+	float: left;
+}
+
+.input{
+	border-radius: 10px;
+	border: solid 1px;
+	border-color: rgb(143,143,143);
+	margin-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 2px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.departamentos{
+	background-color: white;
+	margin: 0px;
+}
+
+.departamentos ul{
+	list-style: none;
+	background-color: white;
+}
+
+.img_destaque_home{
+	margin-left: 10px;	
+}
+
+.mostruario{
+	/*width: 452.5px;*/
+	width: 452.5px;
+	padding: 5px;
+	float: left;
+	background-color: rgb(244,191,191);
+}
+
+.mostruario + .mostruario{
+	margin-left: 10px;
+	background-color: rgb(190,190,244);
+}
+
+.margin_auto{
+	margin: 0 auto;	
+}
+
+.container_mostruario{
+
+}

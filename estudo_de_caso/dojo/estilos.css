@@ -1,0 +1,109 @@
+h1, h2, h3, h4, h5, h6{
+	font-family: "Arial Narrow";
+	margin: 0;
+}
+
+
+body{
+	color: #555;
+}
+
+a, a:visited, a:active, a:hover{
+	text-decoration: none;
+}
+
+#topo {
+	background-image: url('images/banner.jpg');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 350px;
+}
+
+#topo img {
+	width: 100%;
+}
+
+.banner-text {
+	color: white;
+	left: 50%;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.banner-text h1 {
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+
+.banner-text p + p {
+	margin-top: 10px;
+}
+
+
+.amarelo{
+	color: rgb(243,197,0);
+}
+
+.verde
+{
+	color: rgb(1,161,133);
+}
+
+.verdeBg, .amareloBg {
+	color: #ffffff;
+	padding: 5px 10px;
+}
+.verdeBg
+{
+	background-color: rgb(1,161, 133);
+}
+
+.amareloBg{
+	background-color: rgb(243,197,0);
+}
+header nav {
+	float: right;
+	margin: 15px 40px 15px 0;
+}
+
+header nav a{
+	margin-right: 20px;
+}
+
+header h1{
+	display: inline;
+	margin-left: 60px
+}
+
+.servico {
+	width:  1000px;
+	margin: auto;
+}
+
+.servico div{
+	
+	box-size:border-box;
+	width: 15%;
+	float:left;
+	padding: 5px;	
+}
+.servico figure{
+	background-color: #eee;
+	padding: 10px 0;
+	margin: 0;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+
+.servico figure img
+{
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #fff;
+	background-color: #fff;
+}
