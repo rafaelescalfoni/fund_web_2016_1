@@ -3,7 +3,6 @@ h1, h2, h3, h4, h5, h6{
 	margin: 0;
 }
 
-
 body,
 html{
 	color: #555;
@@ -121,6 +120,7 @@ header h1{
 	box-sizing: border-box;
 	float: left;
 	width: 80%;
+	margin-left: 10%;
 }
 
 .col-1of4 {
@@ -153,12 +153,21 @@ header h1{
 	background: transparent;
 	border: none;
 	box-sizing: border-box;
+	bottom: 0;
 	cursor: pointer;
-	display: block;
+	display: inline-block;
 	float: left;
-	height: 100%;
-	position: relative;
+	position: absolute;
 	width: 10%;
+	top: 0;
+}
+
+.arrow-left {
+	left: 0;
+}
+
+.arrow-right {
+	right: 0;
 }
 
 .arrow span {
