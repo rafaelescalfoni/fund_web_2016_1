@@ -1,0 +1,327 @@
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Condensed);
+
+body {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size:18px;
+	font-weight:400px;
+	margin:0;
+	padding:0;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	display:table;
+}
+
+.menu-header{
+	float:right;
+	display:table;
+	margin-top:2%;
+}
+
+
+.menu-header li{
+	display:inline;
+	padding: 10px;
+	
+	
+}
+
+.menu-header a {
+	font-family:'Open Sans', sans-serif;
+	color: #979797;
+	text-decoration:none;
+}
+
+.menu-header .active a{
+	color:#fff;
+}
+
+.menu-header .active{
+	background-color:#01a185;
+}
+
+.menu-header .active:hover{
+	background-color:#F3C500;
+}
+
+.logo {
+	padding:10px;
+	float:left;
+	font-size:40px;
+	color: #01a185;
+}
+
+.logo span {
+	color:#F3C500;
+}
+
+.banner-principal {
+	clear:both;
+	text-align:center;
+	background-image: url(https://p.w3layouts.com/demos/17-02-2016/resale/web/images/banner.jpg);
+	background-repeat: no-repeat;
+	height:400px;
+	padding:10%;
+}
+
+.banner-principal h1, .banner-principal h3 {
+	color:#fff;
+	font-weight:400;
+}
+
+.botao-amarelo {
+	background-color:#F3C500;
+	color: #fff;
+	border:0;
+	font-size:20px;
+	padding:10 15px;
+	
+}
+
+.categorias {
+	
+}
+
+.categoria-item {
+	cursor:pointer;
+	width:14%;
+	margin:1%;
+	border: 1px solid #ededed;
+	text-align:center;
+	min-height: 200px;
+	display:inline-block;
+}
+
+.circulo i{
+	margin-top:25%;
+	font-size:50px;
+}
+
+.circulo {
+	height: 100px;
+	width:100px;
+	line-height:100px;
+	text-align:center;
+	display:inline-block;
+	border-radius:50%;
+	margin-top:25%;
+	color: #fff;
+}
+
+.bg-red {
+	background-color:red;
+}
+
+.bg-orange {
+	background-color:orange;
+}
+
+.bg-blue {
+	background-color:blue;
+}
+
+.bg-green {
+	background-color:green;
+}
+
+.bg-brown {
+	background-color:brown;
+}
+
+.bg-black {
+	background-color:black;
+}
+
+.destaque {
+	
+}
+
+
+.destaque-item {
+	cursor:pointer;
+	width:14%;
+	margin:1%;
+	border: 1px solid #ededed;
+	text-align:center;
+	position:relative;
+	display:inline-block;
+}
+
+.destaque-item img {
+	width:100%;
+}
+
+.item-seta {
+	top: -5rem;
+	border:0 !important;
+	font-size:50px;
+}
+
+.item-preco {
+	position:absolute;
+	background-color:#F3C500;
+	padding:10px;
+	right:0;
+	color:#fff;
+}
+
+.banner-app {
+	background-color:#59C2AF;
+	padding-top: 10%;
+}
+
+.conteudo-banner-app {
+	display:inline-block;
+	max-width:50%;
+	float:right;
+	color:#fff;
+}
+
+.conteudo-banner-app  span {
+	color:#000;
+}
+
+.pre-footer-item {
+	padding-top:20px;
+	padding-left:10px;
+	float:left;
+	font-family:'Open Sans', sans-serif;
+	font-size: 13px;
+	
+	width:24%;
+	color:#979797;
+}
+
+.pre-footer-item  p{
+	line-height:25px;
+}
+
+.pre-footer-item h2 {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-weight:400;
+	font-size:25px;
+	color:#01a185;
+	
+}
+
+.pre-footer-item  h4 {
+	color:rgba(89, 194, 175, 0.79);
+	font-weight:300;
+	
+}
+
+.pre-footer-item  li {
+	padding-bottom:20px;
+}
+
+.pre-footer-item  ul {
+	list-style-type:none;
+	padding:0;
+}
+
+.pre-footer-item  a{
+	text-decoration:none;
+	color:#979797;
+}
+
+.pre-footer-item i {
+	height:30px;
+	width:30px;
+	line-height:30px;
+	text-align:center;
+	border-radius:50%;
+	background-color:rgba(89, 194, 175, 0.79);
+	color:#fff;
+}
+
+.pre-footer-item span {
+	    float: right;
+    display: inline;
+    width: 85%
+}
+
+footer {
+	background-color:#545556;
+		
+}
+
+
+
+footer .logo {
+	text-align:center;
+}
+
+
+
+.clearfix {
+	clear:both;
+}
+
+.pull-left {
+	float:left;
+}
+
+.full {
+	width:100%;
+}
+
+.footer-social {
+	list-style-type:none;
+	color: #ededed;
+}
+
+.footer-social i { 
+	border-radius:50%;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	text-align:center;
+	border:2px solid #ededed;
+}
+
+.footer-social ul {
+	margin:0;
+	
+}
+
+.footer-social li {
+	padding-left:10px;
+	display:inline;
+}
+
+.no-padding {
+	padding:0 !important;
+}
+
+.footer-social a{
+	text-decoration:none;
+	color: #ededed;
+}
+
+.text-center {
+	text-align:center;
+}
+
+.footer-social i:hover  {
+	color:#337ab7 !important;
+	border-color:#337ab7 !important;
+}
+
+.categoria-item:hover {
+	background-color:#01a185;
+	color:#fff;
+	transition: all 500ms;
+}
+
+.categoria-item:hover i {
+	color:#000;
+	transition: all 500ms;
+}
+
+.categoria-item:hover .circulo {
+	background-color:#fff !important;
+	transition: all 500ms;
+}
