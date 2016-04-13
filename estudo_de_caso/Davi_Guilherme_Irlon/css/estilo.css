@@ -14,6 +14,43 @@ div{
 	padding:10px;
 	font-size:10px;	
 	margin:10px;
+	height: 138px;
+}
+
+.item-branco a{
+	font-size: 18px;
+	text-decoration: none;
+	color: blue;
+}
+
+.item-interior-azul{
+	background-color: #97f2ff;
+	padding: 15px;
+}
+
+.item-branco div{
+	margin-bottom: -5px;
+}
+
+.bottom-menu{
+	width: 50%;
+	margin: auto;
+	margin-top: 20px;
+	height: 20px
+}
+
+.bottom-menu div{
+	float: left;
+	width: 100px;
+	color: blue;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.bottom-menu div a{
+	color: blue;
+	font-size: 18px;
+	text-decoration: none;
 }
 
 .item-azul{
@@ -27,6 +64,24 @@ div{
 	color:rgb(255, 255, 255);
 }
 
+.row-completa{
+	width: 100%;
+	height: 50px;
+	margin-bottom: -20px;
+	background-color: #97f2ff;
+}
+
+/*.row-completa div{
+	width: 100%;
+	height: 50px;
+	margin-bottom: -20px;
+}*/
+
+
+.item-branco{
+	color: black;
+	float: left;
+}
 
 .texto-rodape{
 	color:rgb(33, 110, 146);
