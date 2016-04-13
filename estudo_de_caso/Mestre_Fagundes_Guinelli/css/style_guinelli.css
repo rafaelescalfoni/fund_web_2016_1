@@ -12,8 +12,8 @@
 }
 
 .itens{
-	border: 8px solid rgb(240, 240, 240);
 	box-sizing: border-box;
+	border: 8px solid rgb(240, 240, 240);
 	float: left;
 	width: 280px;
 }
