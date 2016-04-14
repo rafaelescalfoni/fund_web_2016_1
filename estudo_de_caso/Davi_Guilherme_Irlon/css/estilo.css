@@ -87,7 +87,8 @@ div{
 	color:rgb(33, 110, 146);
 }
 footer{
-	background-color:rgb(204, 236, 255);
+	/*background-color:rgb(204, 236, 255);*/
+	margin: 10px;
 }
 .destaque-titulo{
 	color: rgb(0, 152, 228);
@@ -149,6 +150,19 @@ header h2{
 .row{
 	margin:auto;
 	width:800px;
+}
+
+footer p{
+	float: left;
+}
+
+footer img{
+	margin-top: 15px;
+}
+.social-icons{
+	margin-left:312px; 
+		float: left;
+
 }
 
 .bannerText{
