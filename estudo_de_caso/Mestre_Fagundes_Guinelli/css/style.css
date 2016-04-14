@@ -27,6 +27,10 @@ footer{
 	margin: 20 0 0 0px;
 }
 
+.estreito{
+	letter-spacing: -0.08em;
+}
+
 .footer_div {
 	box-sizing: border-box;
 	float: left;
@@ -136,17 +140,145 @@ main{
 	width: 264px;
 	padding-left: 7px;
 	color: white;
-	letter-spacing: -0.08em;
 	font-size: 1.3em;
 	font-weight: bolder;
 	vertical-align: middle;
 }
 
 .itens p {
-	font-family: Verdana, Geneva, sans-serif;
 	padding: 0 10px 0 10px;
 }
 
 .clearfix {
 	clear: both;
+}
+
+/* Octavio */
+#titulo
+{
+	letter-spacing: -3px;
+	font-family: sans-serif;
+	margin-top: 3px;
+}
+
+#titulo span
+{
+	color: rgb(247,153,63);
+}
+
+#slogam
+{
+	font-size: xx-large;
+	font-weight: lighter;
+	font-family: sans-serif;
+	color: rgb(21,38,53);
+	margin-bottom: 5px;
+}
+
+#sobre
+{
+	color: rgb(21,38,53);
+	margin-top: 0px;
+}
+
+header
+{
+	background-color: rgb(240,240,240);
+	margin: 0 0 10px 0;
+}
+
+#header-container
+{
+	width: 900px;
+	margin: 0 auto;
+	display: table;
+}
+
+#cabecalho
+{
+	width: 50%;
+}
+
+#fig-header
+{
+	whidth : 100px;
+	height: 100px;
+	padding: 0;
+	margin: 1px;
+}
+
+#top-nav
+{
+	clear: right;
+	margin: 0 auto;
+	width: 900px;
+	padding: 10px 0;
+}
+
+#num-flag
+{
+	background-color: white;
+	position: absolute;
+	top: 0;
+	right: -140px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: rgb(5,19,30);
+	font-weight: bolder;
+	color: white;
+}
+
+#num-flag span
+{
+	color: rgb(243,146,0);
+}
+
+#menu-container
+{
+	background-color: rgb(21,38,53);
+}
+
+#top-menu
+{
+	list-style: none;
+	margin: 0 auto;
+	padding: 0px;
+	display: table;
+}
+
+#top-menu li
+{
+	display: inline;
+	padding: 10px 30px 10px 30px;
+}
+
+#top-menu li:hover
+{
+	background-color: rgb(237,134,0);
+	cursor: pointer;
+}
+
+#top-menu li a
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+#img-top
+{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	left: -70px;
+}
+
+.inline
+{
+	display: inline-block;
+}
+
+.float-right
+{
+	float: right;
 }
