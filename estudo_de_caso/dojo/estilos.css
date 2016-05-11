@@ -3,8 +3,8 @@ h1, h2, h3, h4, h5, h6{
 	margin: 0;
 }
 
-body,
-html{
+
+body{
 	color: #555;
 	margin: 0;
 }
@@ -24,6 +24,74 @@ a, a:visited, a:active, a:hover{
 #topo img {
 	width: 100%;
 }
+.centro{
+	text-align:center;
+}
+footer{
+	clear:left;
+	
+	display:table;
+}
+
+.footerDivVerde{
+	margin:50px 0 0 0 ;
+	padding: 50px 0 0 50px ;
+	box-sizing:  border-box;
+}
+footer div{
+	margin-top: 10px;
+	float:left;
+	width:100%;
+}
+
+
+#produtos-oferta{
+	clear: left;
+	width:100%;
+	padding: 0 5%;
+	
+}
+#container-propaganda{
+	float:left;
+	display:table;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.servico-container {
+	margin: 0 auto;
+	width: 90%;
+}
+.thumbnail  {
+	border:1px solid gray;
+	box-sizing: border-box; 
+	width:20%;
+	display: table;
+	float: left;
+	position: relative;
+	text-align: center;
+	margin: 0 5px;
+}
+
+.thumbnail img {
+	width:80%;
+}
+
+.thumbnail span{
+	position: absolute;
+	right: -5px;
+}
+.seta{
+	font-size: 20px;
+	float: left;
+	background-color: transparent;
+	border: none;
+	height: inherit;
+	width: 10%;
+	margin-top: 10%;
+	text-align: center;
+}
+
 
 .banner-text {
 	color: white;
@@ -56,7 +124,10 @@ a, a:visited, a:active, a:hover{
 
 .verdeBg, .amareloBg {
 	color: #ffffff;
-	padding: 5px 10px;
+	
+}
+.navButton{
+padding: 5px 10px;
 }
 .verdeBg
 {
@@ -109,8 +180,6 @@ header h1{
 	background-color: #fff;
 }
 
-
-
 .trending {
 	width: 100%;
 	position: relative;
@@ -130,7 +199,14 @@ header h1{
 	width: 25%;
 }
 
-.thumbnail {
+.col-6 {
+	box-sizing: border-box;
+	float: left;
+	padding: 0 10px;
+	width: 16.666667%;
+}
+
+.thumbnail-2 {
 	box-sizing: border-box;
 	border: 1px solid #ccc;
 	text-align: center;
@@ -143,9 +219,15 @@ header h1{
 	padding: 5px 10px;
 	position: absolute;
 	top: 0;
+	transition: all 300ms;
+	cursor: pointer;
 }
 
-.thumbnail img {
+.thumbnail-2:hover .thumbnail-price{
+	background-color: rgb(243,197,0);
+}
+
+.thumbnail-2 img {
 	max-width: 100%;
 }
 
@@ -189,4 +271,74 @@ header h1{
 
 .clearfix {
 	clear: both;
+}
+
+.footerDivVerde img {
+	position:relative;
+	float:left;
+}
+
+.float-left {
+	float: left;
+}
+
+#footer-right
+{
+	width:50%;
+	padding:120px 0 0 30px;
+	margin-left: 30px;
+	
+}
+
+#footer-right h4
+{
+	
+	font-size: 18pt;
+}
+#footer-right h4 strong
+{
+	
+	color: black;
+}
+
+.col{
+	float: left;
+	width: 20%;
+}
+
+.col li{
+	list-style:none;
+	margin-bottom: 13px;
+}
+.col ul{
+
+	padding:0;
+}
+.col:first-child{
+	margin-left: 50px;
+}
+.col li a{
+	text-decoration:none;
+	color:#979797;
+	font-size: 0.8em;
+}
+
+.blackBg{
+	background: #333;
+}
+
+.footer {
+	text-align: center;
+	color: #979797;
+	display: table;
+}
+
+.footer-logo {
+	background-color: #333;
+	margin-bottom: -10px;
+	padding: 0 15px;
+}
+
+.footer-line{
+	border-bottom: 1px solid white;
 }
