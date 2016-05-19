@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>Exemplo de ponto de interrupção</title>
+        <script type="text/javascript" src="log.js"></script>
+        <script type="text/javascript">
+
+			window.onload = function() {
+
+	            var x = 213;
+	            log(x);
+	            /*
+	            if(window) {
+				    var x = 213;
+				}
+				alert(x); //funciona!
+				*/
+				assert(true, "|---- Antes de outer ----|");
+				assert((typeof outer==='function'), "outer está no escopo");
+				assert((typeof inner==='function'), "inner está no escopo");
+				assert((typeof a==='number'), "a está no escopo");
+				assert((typeof b==='number'), "b está no escopo");
+				assert((typeof c==='number'), "c está no escopo");
+				function outer(){
+					assert(true, "|---- dentro de outer, antes de a ----|");
+					assert((typeof outer==='function'), "outer está no escopo");
+					assert((typeof inner==='function'), "inner está no escopo");
+					assert((typeof a==='number'), "a está no escopo");
+					assert((typeof b==='number'), "b está no escopo");
+					assert((typeof c==='number'), "c está no escopo");
+					
+					var a = 1;
+
+					assert(true, "|---- dentro de outer, depois de a ----|");
+					assert((typeof outer==='function'), "outer está no escopo");
+					assert((typeof inner==='function'), "inner está no escopo");
+					assert((typeof a==='number'), "a está no escopo");
+					assert((typeof b==='number'), "b está no escopo");
+					assert((typeof c==='number'), "c está no escopo");
+					function inner() { }
+
+					var b = 2;
+					assert(true, "|---- dentro de outer, depois de inner e b ----|");
+					assert((typeof outer==='function'), "outer está no escopo");
+					assert((typeof inner==='function'), "inner está no escopo");
+					assert((typeof a==='number'), "a está no escopo");
+					assert((typeof b==='number'), "b está no escopo");
+					assert((typeof c==='number'), "c está no escopo");
+
+					if (a == 1) {
+						var c = 3;
+						assert(true, "|---- dentro de outer dentro do if ----|");
+						assert((typeof outer==='function'), "outer está no escopo");
+						assert((typeof inner==='function'), "inner está no escopo");
+						assert((typeof a==='number'), "a está no escopo");
+						assert((typeof b==='number'), "b está no escopo");
+						assert((typeof c==='number'), "c está no escopo");
+					}
+				}
+				
+				outer();
+				function blocoTestes(){
+					assert((typeof outer==='function'), "outer está no escopo");
+					assert((typeof inner==='function'), "inner está no escopo");
+					assert((typeof a==='number'), "a está no escopo");
+					assert((typeof b==='number'), "b está no escopo");
+					assert((typeof c==='number'), "c está no escopo");
+				}
+			
+				function Ninja() {
+					this.skulk = function() { return this; };
+				}
+
+				var ninja1 = new Ninja();
+				var ninja2 = new Ninja();
+
+				assert(ninja1.skulk() === ninja1, "The first ninja is skulking");
+				assert(ninja2.skulk() === ninja2, "The second ninja is skulking");
+					
+				function juggle() {
+					var result = 0;
+					for(var n=0; n<arguments.length; n++) {
+						result += arguments[n];
+					}
+					this.result = result;
+				}
+			
+				var ninja1 = {};
+				var ninja2 = {};
+
+				juggle.apply(ninja1, [1,2,3,4]);
+				juggle.call(ninja2, 5, 6, 7, 8);
+
+				assert(ninja1.result === 10, "juggle via apply");
+				assert(ninja2.result === 26, "juggle via call");
+
+				var outerValue = "ninja";
+				var later;
+				function outerFunction() {
+					var innerValue = "samurai";
+					function innerFunction(){
+						assert(outerValue == "ninja", "I can see the ninja");
+						assert(innerValue, "I can see the samurai");
+					}
+					later = innerFunction;
+				}
+				outerFunction();
+				later();
+
+
+
+
+			}
+
+        </script>
+    
+<style>
+	#results li.pass { color: green;}
+	#results li.fail { color:red;}
+</style>
+    </head>
+
+    <body>
+    	<ul id="results"></ul>
+    </body>
+    
+
+</html>
