@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+	<head>	
+		
+		<script src="./script/jquery.js"></script>
+		<script src="./script/data.js"></script>
+		<script src="./bootstrap/js/bootstrap.js"></script>
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
+		<script type="text/javascript">
+			
+			$(function(){
+				$.each(estados, function(indice, estado){
+					$("#estado")
+						.append(
+							$("<option />")
+								.text(estados[indice].nome));
+				});
+					
+				
+				$("#estado").change(function(){
+					for(var i=0; i<estados.length; i++) {
+						if(estados[i].nome===$(this).val())
+							preencheCidadeList(estados[i].cidades);
+					}
+				});
+
+				$("#addDisc").click(function(){
+					$("#disciplinasCursadas")
+						.append($("<li />")
+							.text($("#disciplina").val()));
+					$("#disciplina").val("");
+				});
+
+				$("#remDisc").click(function(){
+					var disciplinaStr = $("#disciplina").val();
+					$("#disciplinasCursadas").children().each(function(indice, elem){
+						if($(elem).text() === disciplinaStr) {
+							$(elem).remove();
+						}
+						$("#disciplina").val("");
+					})
+				});
+
+				function preencheCidadeList(cidades){
+					$("#cidadeList").empty();
+					$.each(cidades, function(indice, cidade){
+						$("#cidadeList")
+							.append(
+								$("<option />")
+									.attr("value", cidade.nome))
+					})
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<form>
+			<div class="row">
+				<div class="form-group col-md-4">
+	    			<label for="matricula">Matrícula</label>
+	    			<input type="text" class="form-control " id="matricula" placeholder="Matrícula" />
+	  			</div>
+	  		</div>
+	  		<div class="row">
+	  			<div class="form-group col-md-8">
+	    			<label for="nome">Nome</label>
+	    			<input type="text" class="form-control" id="nome" placeholder="Nome">
+	  			</div>
+	  		</div>
+	  		<div class="row">
+	  			<div class="form-group col-md-10">
+	    			<label for="endereco">Endereço</label>
+	    			<input type="text" class="form-control" id="endereco" placeholder="Endereço">
+	  			</div>
+	  		</div>
+	  		<div class="row">
+	  			<div class="form-group col-md-4">
+	    			<label for="estado">Estado</label>
+	    			<select id="estado" class="form-control" placeholder="Estado">
+	    			</select>
+	  			</div>
+	  		</div>
+	  		<div class="row">
+	  			<div class="form-group col-md-8">
+	    			<label for="cidade">Cidade</label>
+	    			<input type="text" autocomplete="on"class="form-control" id="cidade" placeholder="Cidade" list="cidadeList" />
+	    			<datalist id="cidadeList"></datalist>
+	  			</div>
+	  		</div>
+	  		<div class="row">
+	  			<div class="form-group col-md-4">
+	    			<label for="periodo">Período</label>
+	    			<input type="number" class="form-control" id="periodo" placeholder="Período">
+	  			</div>
+	  		</div>
+	  		<div class="row">
+	  			<div class="form-group col-md-8">
+	    			<label for="periodo">Disciplinas cursadas</label>
+	    			<ul id="disciplinasCursadas">
+	    				<li>Programação I</li>
+	    				<li>Compiladores</li>
+	    				<li>Cálculo I</li>
+	    			</ul>
+	    		</div>
+	    	</div>
+	  		<div class="row">
+	    		<div class="form-group col-md-8">
+	    			<label for="disciplina">Disciplina</label>
+	    			<input type="text" class="form-control" id="disciplina" placeholder="Disciplina">
+	  			</div>
+	  		</div>
+	  		<div class="row">
+	  			<div class="form-group">
+	    			<button id="addDisc" type="button" class="btn btn-success">Adicionar</button>
+	    			<button id="remDisc" type="button" class="btn btn-danger">Remover</button>
+	  			</div>
+	  		</div>
+
+		</form>
+	</body>
+</html>
