@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+	<script type="text/javascript" src="receitas.js"></script>
+	<script type="text/javascript" >
+		console.log("receitas");
+	
+		function chamaFuncao(){
+			//var input  = document.getElementById("teste");
+			//console.log(input);
+			
+			//input.setAttribute("value", "away!");
+			//var titulo = document.querySelector("#titulo");
+			//titulo.textContent = "Agora o texto do elemento mudou!";
+			
+			for(var i= 0; i<receitas.length; i++) {
+				console.log("\n receita: " + receitas[i].nome);
+				var titulo= document.createElement("h1");
+				titulo.textContent = receitas[i].nome;
+				var img = document.createElement("img");
+				img.setAttribute("src", "." + receitas[i].foto);
+				myDiv= document.getElementById("myDiv");
+				myDiv.appendChild(titulo);
+				myDiv.appendChild(img);
+
+			}
+			
+
+		}
+	</script>
+</head>
+<body>
+	<input type="button" onclick="chamaFuncao()" value="Go!"/>
+	<div id="myDiv">
+	</div>
+</body>
+</html>
